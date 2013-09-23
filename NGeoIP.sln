@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NGeoIP", "NGeoIP\NGeoIP.csproj", "{A8075D85-3B2B-43D8-94B0-3204DE183E71}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NGeoIP.Test", "NGeoIP.Test\NGeoIP.Test.csproj", "{23E65058-1D55-4F1B-B148-54CC794BE577}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A8075D85-3B2B-43D8-94B0-3204DE183E71}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A8075D85-3B2B-43D8-94B0-3204DE183E71}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A8075D85-3B2B-43D8-94B0-3204DE183E71}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A8075D85-3B2B-43D8-94B0-3204DE183E71}.Release|Any CPU.Build.0 = Release|Any CPU
+		{23E65058-1D55-4F1B-B148-54CC794BE577}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{23E65058-1D55-4F1B-B148-54CC794BE577}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{23E65058-1D55-4F1B-B148-54CC794BE577}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{23E65058-1D55-4F1B-B148-54CC794BE577}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
