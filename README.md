@@ -3,14 +3,11 @@ NGeoIP
 
 .NET wrapper to freegeoip.net for searching geolocation of an IP addresses and host names
 
-Open Source Libraries
-=====================
+###Open Source Libraries
 
--RestSharp
+* RestSharp
+* Json.NET
 
--Json.NET
-
-Status
-======
+###Status
 
 IN PROGRESS
