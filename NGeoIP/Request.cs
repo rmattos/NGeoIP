@@ -1,7 +1,7 @@
 ﻿
 namespace NGeoIP
 {
-    public class RequestInfo
+    public class Request
     {
         public Format Format { get; set; }
 
