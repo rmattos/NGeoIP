@@ -12,7 +12,7 @@ NGeoIP
 
 #### How to make a request to service
 
-```js
+```C#
 var nGeoRequest = new Request()
 {
     Format = Format.Json,
@@ -26,7 +26,7 @@ var rawData = nGeoClient.Execute();
 
 #### How to transform a RawData object to a normalized Response object
 
-```js
+```C#
 var response = nGeoClient.MapResponse(rawData);
 ```
 
