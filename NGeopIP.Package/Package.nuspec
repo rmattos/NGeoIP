@@ -7,7 +7,7 @@
     <authors>rmattos</authors>
     <owners></owners>
     <description>
-      Free .NET client to freegeoip.net for searching geolocation of an IP addresses and host names
+      Free .NET client to freegeoip.net for searching geolocation of IP addresses and host names
     </description>
     <language>en-US</language>
     <projectUrl>https://github.com/rmattos/NGeoIP</projectUrl>
