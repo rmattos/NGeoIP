@@ -25,7 +25,7 @@ var nGeoClient = new NGeoClient(nGeoRequest);
 var rawData = nGeoClient.Execute();
 ```
 
-#### RawData object structure
+#### RawData object
 
 ```C#
 public class RawData
@@ -60,7 +60,7 @@ public class RawData
 var response = nGeoClient.MapResponse(rawData);
 ```
 
-#### Response object structure
+#### Response object
 
 ```C#
 public class Response
