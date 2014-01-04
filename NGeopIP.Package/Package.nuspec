@@ -1,9 +1,9 @@
 <?xml version="1.0"?>
 <package >
   <metadata>
-    <id>NGeopIP</id>
-    <version>1.0.0</version>
-    <title>NGeopIP</title>
+    <id>NGeoIP</id>
+    <version>1.0.1</version>
+    <title>NGeoIP</title>
     <authors>rmattos</authors>
     <owners></owners>
     <description>
@@ -14,15 +14,11 @@
     <iconUrl>https://nuget.org/Content/Images/packageDefaultIcon-50x50.png</iconUrl>
     <copyright>Copyright 2014</copyright>
     <dependencies>
-        <group targetFramework="net45">
-          <dependency id="AutoMapper" version="3.1.1" />
-          <dependency id="RestSharp" version="104.2.0" />
-        </group>
+      <dependency id="AutoMapper" version="3.1.1" />
+      <dependency id="RestSharp" version="104.2.0" />
     </dependencies>
   </metadata>
   <files>
-    <file src="lib\" target="lib" />
-    <file src="tools\" target="tools" />
-    <file src="content\" target="content" />
+    <file src="..\NGeoIP\bin\Release\*.dll" target="lib\net45"></file>
   </files>
 </package>
