@@ -7,7 +7,7 @@ NGeoIP
 
 To install NGeopIP, run the following command in the Package Manager Console
 
-PM> Install-Package NGeopIP
+PM> Install-Package NGeoIP
 
 ###Usage
 
