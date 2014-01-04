@@ -3,10 +3,10 @@ NGeoIP
 
 .NET client to freegeoip.net for searching geolocation of an IP addresses and host names
 
-###Open Source Libraries
+###OSS Libraries used
 
-* RestSharp
-* AutoMapper
+* [RestSharp](https://github.com/restsharp/RestSharp)
+* [AutoMapper] (https://github.com/AutoMapper/AutoMapper/)
 
 ###Usage
 
