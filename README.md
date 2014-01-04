@@ -3,10 +3,11 @@ NGeoIP
 
 .NET client to freegeoip.net for searching geolocation of an IP addresses and host names
 
-###OSS Libraries used
+###How to install via NugGet
 
-* [RestSharp](https://github.com/restsharp/RestSharp)
-* [AutoMapper] (https://github.com/AutoMapper/AutoMapper/)
+To install NGeopIP, run the following command in the Package Manager Console
+
+PM> Install-Package NGeopIP
 
 ###Usage
 
@@ -29,6 +30,11 @@ var rawData = nGeoClient.Execute();
 ```C#
 var response = nGeoClient.MapResponse(rawData);
 ```
+
+###OSS Libraries used
+
+* [RestSharp](https://github.com/restsharp/RestSharp)
+* [AutoMapper] (https://github.com/AutoMapper/AutoMapper/)
 
 ###Limits
 
