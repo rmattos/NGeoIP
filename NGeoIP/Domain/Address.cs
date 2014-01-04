@@ -3,6 +3,13 @@ namespace NGeoIP.Domain
 {
     public class Address
     {
+        public Address()
+        {
+            Country = new Country();
+            Region = new Region();
+            City = new City();
+        }
+
         public Country Country { get; set; }
 
         public Region Region { get; set; }

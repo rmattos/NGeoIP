@@ -3,8 +3,7 @@ namespace NGeoIP
 {
     public enum Format
     {
-        Csv = 1,
-        Xml,
+        Xml = 1,
         Json
     }
 }

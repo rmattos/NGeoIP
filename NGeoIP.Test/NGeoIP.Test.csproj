@@ -46,7 +46,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="GeoClientTest.cs" />
+    <Compile Include="NGeoClientTest.cs" />
     <Compile Include="HelperTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
