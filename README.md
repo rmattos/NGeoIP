@@ -6,8 +6,26 @@ NGeoIP
 ###Open Source Libraries
 
 * RestSharp
-* Json.NET
+* AutoMapper
 
-###Status
+###Usage
 
-IN PROGRESS
+#### How to make a request to service
+
+var nGeoRequest = new Request()
+{
+    Format = Format.Json,
+    IP = "[CLIENT IP]"
+};
+
+var nGeoClient = new NGeoClient(nGeoRequest);
+
+var rawData = nGeoClient.Execute();
+
+#### How to transform a RawData object to a normalized Response object
+
+var response = nGeoClient.MapResponse(rawData);
+
+###Limits
+
+API usage is limited to 10,000 queries per hour. After reaching this limit, all requests will result in HTTP 403 (Forbidden) until the roll over.
