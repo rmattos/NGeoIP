@@ -1,7 +1,7 @@
 NGeoIP
 ======
 
-.NET client to [freegeoip.net] (http://freegeoip.net/) for searching geolocation of an IP addresses and host names
+.NET client to [freegeoip.net] (http://freegeoip.net/) for searching geolocation of IP addresses and host names
 
 ###How to install via NugGet
 
