@@ -116,4 +116,8 @@ public class City
 
 ###Limits
 
-API usage is limited to 10,000 queries per hour. After reaching this limit, all requests will result in HTTP 403 (Forbidden) until the roll over.
+Freegeoip.net API usage is limited to 10,000 queries per hour. After reaching this limit, all requests will result in HTTP 403 (Forbidden) until the roll over.
+
+If the usage limit is a problem, please consider running your own instance of this system. It's open source and freely available at GitHub.
+
+Download the [source code] (https://github.com/fiorix/freegeoip)
